@@ -7,4 +7,7 @@ parameter = [
     {name = "dev.catalogue.mongo_repo_url" ,value = "mongodb-dev.unlockers.online"},
     {name = "dev.catalogue.mongo" ,value = "MONGO=true"},
     {name = "dev.catalogue.mongo_url" ,value = "mongodb://mongodb-dev.unlockers.online:27017/catalogue"},
+    {name = "dev.user.redis_host" ,value = "redis-dev.unlockers.online"},
+    {name = "dev.user.catalogue_host" ,value = "catalogue-dev.unlockers.online"},
+    {name = "dev.user.catale_port" ,value = "8080"}
 ] 
