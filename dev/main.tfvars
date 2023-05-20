@@ -5,10 +5,10 @@ parameter = [
     {name = "dev.frontend.shipping_url" ,value = "http://shipping-dev.unlockers.online:8080/"},
     {name = "dev.frontend.payment_url" ,value = "http://payment-dev.unlockers.online:8080/"},
     {name = "dev.catalogue.mongo_repo_url" ,value = "mongodb-dev.unlockers.online"},
+
     {name = "dev.catalogue.mongo" ,value = "true"},
-    {name = "dev.catalogue.mongo_url" ,value = "mongodb://mongodb-dev.unlockers.online:27017/users"},
+    {name = "dev.catalogue.mongo_url" ,value = "mongodb://mongodb-dev.unlockers.online:27017/catalogue"},
     {name = "dev.user.mongo" ,value = "MONGO=true"},
     {name = "dev.user.redis_host" ,value = "redis-dev.unlockers.online"},
-    {name = "dev.user.mongo_url" ,value = "8080"}
+    {name = "dev.user.mongo_url" ,value = "mongodb://mongodb-dev.unlockers.online:27017/users"}
 ] 
-
