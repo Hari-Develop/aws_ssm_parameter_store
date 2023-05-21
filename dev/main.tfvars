@@ -12,10 +12,10 @@ parameter = [
     {name = "dev.user.mongo_url" ,value = "redis-dev.unlockers.online"},
     {name = "dev.cart.redis_url" ,value = "redis-dev.unlockers.online"},
     {name = "dev.cart.catalogue_url" ,value = "catalogue-dev.unlockers.online"},
-    {name = "dev.cart.catalogue_port" ,value = "8080"}
-    {name = "dev.mysql_url" ,value = "mysql-dev.unlockers.online"}
-    {name = "dev.cart_url" ,value = "cart-dev.unlockers.online:8080"}
-    {name = "dev.cart_url" ,value = "dev.unlockers.online:8080"}
-    {name = "dev.mysql_url_schema" ,value = "mysql-dev.unlockers.online"}
+    {name = "dev.cart.catalogue_port" ,value = "8080"},
+    {name = "dev.mysql_url" ,value = "mysql-dev.unlockers.online"},
+    {name = "dev.cart_url" ,value = "cart-dev.unlockers.online:8080"},
+    {name = "dev.cart_url" ,value = "dev.unlockers.online:8080"},
+    {name = "dev.mysql_url_schema" ,value = "mysql-dev.unlockers.online"},
     {name = "mysql_root_passwd" ,value = "RoboShop@1"}
 ] 
