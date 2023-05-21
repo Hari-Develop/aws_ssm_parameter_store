@@ -21,7 +21,25 @@ parameter = [
 
     {name = "dev.cart_url" ,value = "cart-dev.unlockers.online:8080"},
     {name = "dev.cart_url" ,value = "dev.unlockers.online:8080"},
-    
+
     {name = "dev.mysql_url_schema" ,value = "mysql-dev.unlockers.online"},
-    {name = "mysql_root_passwd" ,value = "RoboShop@1"}
+    {name = "mysql_root_passwd" ,value = "RoboShop@1"},
+
+    {name = "cart_payment.end_point" ,value = "cart-dev.unlockers.online"},
+    {name = "cart_payment.port_number" ,value = "8080"},
+    {name = "user_payment.end_point" ,value = "user-dev.unlockers.online"},
+    {name = "user_payment.port_number" ,value = "8080"},
+    {name = "amqp_payment.end_point" ,value = "rabbitmq-dev.unlockers.online"},
+    {name = "amqp_payment.user_host" ,value = "roboshop"},
+    {name = "amqp_payment.user_pass" ,value = "roboshop123"}
 ] 
+
+
+{{ lookup('aws_ssm', 'cart_payment.end_point', region='us-east-1' ) }}
+{{ lookup('aws_ssm', 'cart_payment.port_number', region='us-east-1' ) }}
+{{ lookup('aws_ssm', 'user_payment.end_point', region='us-east-1' ) }}
+{{ lookup('aws_ssm', 'user_payment.port_number', region='us-east-1' ) }}
+{{ lookup('aws_ssm', 'amqp_payment.end_point', region='us-east-1' ) }}
+{{ lookup('aws_ssm', 'amqp_payment.user_host', region='us-east-1' ) }}
+{{ lookup('aws_ssm', 'amqp_payment.user_pass', region='us-east-1' ) }}
+
