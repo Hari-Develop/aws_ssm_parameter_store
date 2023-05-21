@@ -35,11 +35,3 @@ parameter = [
 ] 
 
 
-{{ lookup('aws_ssm', 'cart_payment.end_point', region='us-east-1' ) }}
-{{ lookup('aws_ssm', 'cart_payment.port_number', region='us-east-1' ) }}
-{{ lookup('aws_ssm', 'user_payment.end_point', region='us-east-1' ) }}
-{{ lookup('aws_ssm', 'user_payment.port_number', region='us-east-1' ) }}
-{{ lookup('aws_ssm', 'amqp_payment.end_point', region='us-east-1' ) }}
-{{ lookup('aws_ssm', 'amqp_payment.user_host', region='us-east-1' ) }}
-{{ lookup('aws_ssm', 'amqp_payment.user_pass', region='us-east-1' ) }}
-
