@@ -25,13 +25,13 @@ parameter = [
     {name = "dev.mysql_url_schema" ,value = "mysql-dev.unlockers.online"},
     {name = "mysql_root_passwd" ,value = "RoboShop@1"},
 
-    {name = "cart_payment.end_point" ,value = "cart-dev.unlockers.online"},
-    {name = "cart_payment.port_number" ,value = "8080"},
-    {name = "user_payment.end_point" ,value = "user-dev.unlockers.online"},
-    {name = "user_payment.port_number" ,value = "8080"},
-    {name = "amqp_payment.end_point" ,value = "rabbitmq-dev.unlockers.online"},
-    {name = "amqp_payment.user_host" ,value = "roboshop"},
-    {name = "amqp_payment.user_pass" ,value = "roboshop123"}
+    {name = "dev.payment.end_point" ,value = "cart-dev.unlockers.online"},
+    {name = "dev.payment.port_number" ,value = "8080"},
+    {name = "dev.payment.end_point" ,value = "user-dev.unlockers.online"},
+    {name = "dev.payment.port_number" ,value = "8080"},
+    {name = "dev.payment.end_point" ,value = "rabbitmq-dev.unlockers.online"},
+    {name = "dev.payment.user_host" ,value = "roboshop"},
+    {name = "dev.payment.user_pass" ,value = "roboshop123"}
 ] 
 
 
