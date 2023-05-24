@@ -18,20 +18,17 @@ parameter = [
     {name = "dev.cart.catalogue_port" ,value = "8080"},
 
     {name = "dev.mysql_url" ,value = "mysql-dev.unlockers.online"},
+    {name = "dev.cart.url_shipping" ,value = "cart-dev.unlockers.online:8080"},
+    
 
-    {name = "dev.cart_url" ,value = "cart-dev.unlockers.online:8080"},
-    {name = "dev.cart_url" ,value = "dev.unlockers.online:8080"},
+    {name = "dev.mysql.url_schema" ,value = "mysql-dev.unlockers.online"},
+    {name = "dev.mysql.root_passwd" ,value = "RoboShop@1"},
 
-    {name = "dev.mysql_url_schema" ,value = "mysql-dev.unlockers.online"},
-    {name = "mysql_root_passwd" ,value = "RoboShop@1"},
-
-    {name = "dev.payment.end_point" ,value = "cart-dev.unlockers.online"},
-    {name = "dev.payment.port_number" ,value = "8080"},
-    {name = "dev.payment.end_point" ,value = "user-dev.unlockers.online"},
-    {name = "dev.payment.port_number" ,value = "8080"},
-    {name = "dev.payment.end_point" ,value = "rabbitmq-dev.unlockers.online"},
-    {name = "dev.payment.user_host" ,value = "roboshop"},
-    {name = "dev.payment.user_pass" ,value = "roboshop123"}
+    {name = "dev.payment.end_point_cart_host" ,value = "cart-dev.unlockers.online"},
+    {name = "dev.payment.port_number_cart_port" ,value = "8080"},
+    {name = "dev.payment.end_point_user_host" ,value = "user-dev.unlockers.online"},
+    {name = "dev.payment.port_number_user_port" ,value = "8080"},
+    {name = "dev.payment.end_point_amqp_host" ,value = "rabbitmq-dev.unlockers.online"},
+    {name = "dev.payment.user_host_amqp_user" ,value = "roboshop"},
+    {name = "dev.payment.user_pass_amp_passwd" ,value = "roboshop123"}
 ] 
-
-
