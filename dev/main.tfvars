@@ -32,7 +32,7 @@ parameter = [
 
     {name = "dev.shipping.db_host" ,value = "mysql-dev.unlockers.online"},
     {name = "dev.shipping.db_host_user" ,value = "root"},
-    {name = "dev.dev.shipping.db_host_password" ,value = "RoboShop@1"}
+    {name = "dev.shipping.db_host_password" ,value = "RoboShop@1"}
     
     
 ] 
