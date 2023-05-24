@@ -18,8 +18,8 @@ parameter = [
     {name = "dev.cart.catalogue_url" ,value = "catalogue-dev.unlockers.online"},
     {name = "dev.cart.catalogue_port" ,value = "8080"},
 
-    {name = "dev.cart.db_url_shipping" ,value = "mysql-dev.unlockers.online"},
-    {name = "dev.cart.url_shipping" ,value = "cart-dev.unlockers.online:8080"},
+    {name = "dev.shipping.db_url_shipping" ,value = "mysql-dev.unlockers.online"},
+    {name = "dev.shipping.url_shipping" ,value = "cart-dev.unlockers.online:8080"},
     
     {name = "dev.payment.end_point_cart_host" ,value = "cart-dev.unlockers.online"},
     {name = "dev.payment.port_number_cart_port" ,value = "8080"},
