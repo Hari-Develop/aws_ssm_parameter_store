@@ -30,5 +30,7 @@ parameter = [
     {name = "dev.payment.port_number_user_port" ,value = "8080"},
     {name = "dev.payment.end_point_amqp_host" ,value = "rabbitmq-dev.unlockers.online"},
     {name = "dev.payment.user_host_amqp_user" ,value = "roboshop"},
-    {name = "dev.payment.user_pass_amp_passwd" ,value = "roboshop123"}
+    {name = "dev.payment.user_pass_amp_passwd" ,value = "roboshop123"},
+
+    {name = "dev.mongo.scheme_repo_url" ,value = "mongodb-dev.unlockers.online"}
 ] 
