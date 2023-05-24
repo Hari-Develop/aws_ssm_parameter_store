@@ -17,7 +17,7 @@ parameter = [
     {name = "dev.cart.catalogue_url" ,value = "catalogue-dev.unlockers.online"},
     {name = "dev.cart.catalogue_port" ,value = "8080"},
 
-    {name = "dev.mysql_url" ,value = "mysql-dev.unlockers.online"},
+    {name = "dev.mysql.url_shipping" ,value = "mysql-dev.unlockers.online"},
     {name = "dev.cart.url_shipping" ,value = "cart-dev.unlockers.online:8080"},
     
 
