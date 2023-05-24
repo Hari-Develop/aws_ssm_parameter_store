@@ -20,10 +20,6 @@ parameter = [
     {name = "dev.mysql.url_shipping" ,value = "mysql-dev.unlockers.online"},
     {name = "dev.cart.url_shipping" ,value = "cart-dev.unlockers.online:8080"},
     
-
-    {name = "dev.mysql.url_schema" ,value = "mysql-dev.unlockers.online"},
-    {name = "dev.mysql.root_passwd" ,value = "RoboShop@1"},
-
     {name = "dev.payment.end_point_cart_host" ,value = "cart-dev.unlockers.online"},
     {name = "dev.payment.port_number_cart_port" ,value = "8080"},
     {name = "dev.payment.end_point_user_host" ,value = "user-dev.unlockers.online"},
@@ -32,5 +28,7 @@ parameter = [
     {name = "dev.payment.user_host_amqp_user" ,value = "roboshop"},
     {name = "dev.payment.user_pass_amp_passwd" ,value = "roboshop123"},
 
-    {name = "dev.mongodb.scheme_repo_url" ,value = "mongodb-dev.unlockers.online"}
+    {name = "dev.mongodb.scheme_repo_url" ,value = "mongodb-dev.unlockers.online"},
+    {name = "dev.mysql.scheme_repo_url" ,value = "mysql-dev.unlockers.online"}
+    
 ] 
