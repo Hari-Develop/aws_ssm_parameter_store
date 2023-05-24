@@ -1,4 +1,5 @@
 parameter = [
+
     {name = "dev.frontend.catalogue_url" ,value = "http://catalogue-dev.unlockers.online:8080/"},
     {name = "dev.frontend.cart_url" ,value = "http://cart-dev.unlockers.online:8080/"},
     {name = "dev.frontend.user_url" ,value = "http://user-dev.unlockers.online:8080/"},
@@ -27,12 +28,10 @@ parameter = [
     {name = "dev.payment.end_point_amqp_host" ,value = "rabbitmq-dev.unlockers.online"},
     {name = "dev.payment.user_host_amqp_user" ,value = "roboshop"},
     {name = "dev.payment.user_pass_amp_passwd" ,value = "roboshop123"},
-
-    {name = "dev.shipping.db_host" ,value = "mysql-dev.unlockers.online"},
+    
     {name = "dev.shipping.db_host_user" ,value = "root"},
     {name = "dev.shipping.db_host_password" ,value = "RoboShop@1"}
-    
-    
+
 ] 
 
 
