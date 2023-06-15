@@ -29,10 +29,7 @@ parameter = [
     {name = "dev.payment.user_host_amqp_user" ,value = "roboshop"},
     {name = "dev.payment.user_pass_amp_passwd" ,value = "roboshop123"},
 
-<<<<<<< HEAD
-    {name = "dev.mongodb.scheme_repo_url" ,value = "mongodb-dev.unlockers.online"},
-=======
->>>>>>> 57678fca19a4853ecaf4ab93ebd857a84d693662
+    {name = "dev.mongodb.scheme_repo_url" , value = "mongodb-dev.unlockers.online"},
 
     {name = "dev.shipping.db_host" ,value = "mysql-dev.unlockers.online"},
     {name = "dev.shipping.db_host_user" ,value = "root"},
