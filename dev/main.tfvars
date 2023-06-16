@@ -35,7 +35,7 @@ parameter = [
     {name = "dev.shipping.db_host_user" ,value = "root"},
     {name = "dev.shipping.db_host_password" ,value = "RoboShop@1"},
     {name = "dev.docdb.db_user_name" ,value = "roboshop"},
-    {name = "dev.docdb.db_user_password" ,value = "roboshop1234"}
+    {name = "dev.docdb.db_user_password" ,value = "roboshop1234"},
     {name = "dev.rds.db_user_name" ,value = "roboshop"},
     {name = "dev.rds.db_user_password" ,value = "roboshop123454678"}
 
